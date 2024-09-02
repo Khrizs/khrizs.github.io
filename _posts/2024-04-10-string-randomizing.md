@@ -14,8 +14,8 @@ from datetime import datetime
 random.seed(datetime.now().timestamp())
 
 prefix = ""
-supersecretrandomized = supersecretthing + "".join(random.choices(string.ascii_letters + string.digits, k=16))
-print(supersecretrandomized)
+randomstring = prefix + "".join(random.choices(string.ascii_letters + string.digits, k=16))
+print(randomstring)
 ~~~
 
 ok thaats it
